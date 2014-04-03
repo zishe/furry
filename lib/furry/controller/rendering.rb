@@ -20,7 +20,7 @@ module Furry
       #   Render ERB template.
       #   @param template [String] template name
       #   @param status [Integer] status code
-      def render(text: nil, erb: nil, template: nil, status: 200)
+      def render(text => nil, erb => nil, template => nil, status => 200)
         self._status = status
 
         if text
